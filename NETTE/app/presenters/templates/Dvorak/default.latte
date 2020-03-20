@@ -1,0 +1,40 @@
+
+{block content}
+
+{$radek}
+{$predek}<br>
+{foreach $users as $item}
+{$item}<br>
+{/foreach}
+{foreach $users as $item}  
+    {$iterator->getCounter()}.{$item}<br>
+{/foreach}
+{foreach $users as $item}
+   {$item}{sep},{/sep}
+{/foreach}
+<table width="200" border="1">
+    {for $i=1; $i < $radek+1; $i++}
+        <tr>
+            {for $h=1; $h < $predek+1; $h++}
+            <td>{$i}-{$h}</td>
+            {/for}
+        <tr>
+        {/for}
+    
+</table>
+<table width="200" border="1">
+    {foreach $users as $key =>$item}
+        <tr>
+            
+            
+            <td>
+                {$key +1}
+            </td>
+            <td>
+                {$item}
+             </td>        
+        <tr>
+        {/foreach}
+    
+</table>
+{/block}
