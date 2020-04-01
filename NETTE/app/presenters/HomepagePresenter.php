@@ -1,17 +1,12 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Presenters;
 
-Class HomepagePresenter extends BasePresenter {
+use Nette;
 
-    public function renderDefault() {
-        $this->template->anyVariable = 'any value';
-    }
 
-    public function actionDetail() {
-
-        $this->template->rows = 10;
-        $this->template->collums = 8;
-    }
-
+final class HomepagePresenter extends Nette\Application\UI\Presenter
+{
 }

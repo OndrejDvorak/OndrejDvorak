@@ -1,4 +1,5 @@
 # Apache configuration file (see httpd.apache.org/docs/current/mod/quickreference.html)
+Allow from all
 
 # disable directory listing
 <IfModule mod_autoindex.c>
@@ -20,7 +21,7 @@
 	# front controller
 	RewriteCond %{REQUEST_FILENAME} !-f
 	RewriteCond %{REQUEST_FILENAME} !-d
-	RewriteRule !\.(pdf|js|ico|gif|jpg|png|css|rar|zip|tar\.gz|map)$ index.php [L]
+	RewriteRule !\.(pdf|js|ico|gif|jpg|png|svg|css|rar|zip|tar\.gz|map)$ index.php [L]
 </IfModule>
 
 # enable gzip compression
