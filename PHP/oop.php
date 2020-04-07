@@ -16,7 +16,7 @@ include 'class/ustrednaDvorak.php';
 /**
  * atribut podle ktereho nastavime napeti
  */
-$napetiDvorak = 24; 
+$napetiDvorak = "24"; 
 /**
  * instance tridy ustrednaDvorak
  */
@@ -28,7 +28,7 @@ var_dump($newDvorak::TYPE);
 /**
  * nastaveni atributu pomoci instacniho pristupu k fuknci
  */
-$newDvorak->setNapetiDvorak($napetiDvorak);      
+$newDvorak->setNapetiDvorak($napetiDvorak); 
 /**
  * vypsani atributu ve var dump instancnim zpusobem
  */

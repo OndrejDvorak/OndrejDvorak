@@ -1,4 +1,8 @@
 <?php
+
+declare(strict_types=1);
+
+
 /**
  * abstraktni trida ktera se neda instancovat a implementuje interface
  */
@@ -14,7 +18,7 @@ abstract class ustrednyDvorak implements iustrednyDvorak {
    * @return type
    */
   
-    function setNapetiDvorak() {
+    function getNapetiDvorak() : int {
       return $this->napetiDvorak;
   }
 
@@ -23,7 +27,7 @@ abstract class ustrednyDvorak implements iustrednyDvorak {
    * @param type $napetiDvorak
    */
    
-  function getNapetiDvorak($napetiDvorak) {
+  function setNapetiDvorak(int $napetiDvorak) {
       $this->napetiDvorak = $napetiDvorak;
   }
 }

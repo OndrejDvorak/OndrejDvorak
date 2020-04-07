@@ -6,10 +6,10 @@ interface iustrednyDvorak {
     /**
      * funkce ktera se musi implementovat
      */
-    function getNapetiDvorak(); 
+    function getNapetiDvorak() : int; 
     /**
-     * funkce ktera se musi implementovat
-     * @param type $napetiDvorak
+     * 
+     * @param int $napetiDvorak
      */
-    function setNapetiDvorak($napetiDvorak);
+    function setNapetiDvorak(int $napetiDvorak);
 }
