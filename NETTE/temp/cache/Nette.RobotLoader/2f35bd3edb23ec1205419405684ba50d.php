@@ -2,64 +2,45 @@
 return array (
   0 => 
   array (
-    'App\\Forms\\FormFactory' => 
+    'App\\Bootstrap' => 
     array (
-      'file' => 'D:\\wamp64\\www\\VincencNguyen\\NETTE\\app\\forms\\FormFactory.php',
-      'time' => 1580942146,
+      'file' => 'D:\\wamp64\\www\\VincencNguyen\\NETTE\\app\\Bootstrap.php',
+      'time' => 1583879318,
     ),
-    'App\\Forms\\SignInFormFactory' => 
+    'Mexican' => 
     array (
-      'file' => 'D:\\wamp64\\www\\VincencNguyen\\NETTE\\app\\forms\\SignInFormFactory.php',
-      'time' => 1580942146,
-    ),
-    'App\\Forms\\SignUpFormFactory' => 
-    array (
-      'file' => 'D:\\wamp64\\www\\VincencNguyen\\NETTE\\app\\forms\\SignUpFormFactory.php',
-      'time' => 1580942146,
-    ),
-    'App\\Model\\UserManager' => 
-    array (
-      'file' => 'D:\\wamp64\\www\\VincencNguyen\\NETTE\\app\\model\\UserManager.php',
-      'time' => 1580942146,
-    ),
-    'App\\Model\\DuplicateNameException' => 
-    array (
-      'file' => 'D:\\wamp64\\www\\VincencNguyen\\NETTE\\app\\model\\UserManager.php',
-      'time' => 1580942146,
-    ),
-    'App\\Presenters\\BasePresenter' => 
-    array (
-      'file' => 'D:\\wamp64\\www\\VincencNguyen\\NETTE\\app\\presenters\\BasePresenter.php',
-      'time' => 1580942146,
+      'file' => 'D:\\wamp64\\www\\VincencNguyen\\NETTE\\app\\model\\forms\\Mexican.php',
+      'time' => 1586868300,
     ),
     'App\\Presenters\\Error4xxPresenter' => 
     array (
-      'file' => 'D:\\wamp64\\www\\VincencNguyen\\NETTE\\app\\presenters\\Error4xxPresenter.php',
-      'time' => 1580942146,
+      'file' => 'D:\\wamp64\\www\\VincencNguyen\\NETTE\\app\\Presenters\\Error4xxPresenter.php',
+      'time' => 1583879318,
     ),
     'App\\Presenters\\ErrorPresenter' => 
     array (
-      'file' => 'D:\\wamp64\\www\\VincencNguyen\\NETTE\\app\\presenters\\ErrorPresenter.php',
-      'time' => 1580942146,
+      'file' => 'D:\\wamp64\\www\\VincencNguyen\\NETTE\\app\\Presenters\\ErrorPresenter.php',
+      'time' => 1583879318,
     ),
     'App\\Presenters\\HomepagePresenter' => 
     array (
-      'file' => 'D:\\wamp64\\www\\VincencNguyen\\NETTE\\app\\presenters\\HomepagePresenter.php',
+      'file' => 'D:\\wamp64\\www\\VincencNguyen\\NETTE\\app\\Presenters\\HomepagePresenter.php',
       'time' => 1583879318,
     ),
-    'App\\Presenters\\SignPresenter' => 
+    'App\\Presenters\\MexicanPresenter' => 
     array (
-      'file' => 'D:\\wamp64\\www\\VincencNguyen\\NETTE\\app\\presenters\\SignPresenter.php',
-      'time' => 1580942146,
+      'file' => 'D:\\wamp64\\www\\VincencNguyen\\NETTE\\app\\Presenters\\MexicanPresenter.php',
+      'time' => 1586868300,
     ),
-    'App\\RouterFactory' => 
+    'App\\Router\\RouterFactory' => 
     array (
-      'file' => 'D:\\wamp64\\www\\VincencNguyen\\NETTE\\app\\router\\RouterFactory.php',
-      'time' => 1580942146,
+      'file' => 'D:\\wamp64\\www\\VincencNguyen\\NETTE\\app\\Router\\RouterFactory.php',
+      'time' => 1583879318,
     ),
   ),
   1 => 
   array (
-    'Nette\\Environment' => 1,
+    'Nette\\Environment' => 3,
+    'App\\Presenters\\CheckerPresenter' => 1,
   ),
 );
